@@ -1,0 +1,99 @@
+/* Styles for the bus list */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #008CBA;
+    color: rgb(14, 13, 13);
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  body{
+      background:linear-gradient(45deg,rgba(81, 7, 255, 0.925),rgb(7, 206, 189),rgba(18, 255, 97, 0.74),rgba(255, 8, 8, 0.959));
+      background-size: 400% 400% ;
+      animation: anim 5s infinite ease-in-out ;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  }
+  @keyframes anim {
+      0% {
+          background-position: 0 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position:0% 50%;}
+  }
+
+  
+  /* Styles for the form */
+  form {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  p {
+    margin-bottom: 10px;
+    color: aliceblue;
+  }
+  
+  button[type="submit"] {
+    background-color: #008CBA;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Styles for the passenger details list */
+  h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(162, 29, 29);
+  }
+  
+  ul li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  ul li p {
+    margin-bottom: 5px;
+  }
+  
+  ul li:last-child {
+    margin-bottom: 0;
+  }
+  .container
+  {
+    text-align: center;
+  }
